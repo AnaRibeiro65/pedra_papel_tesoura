@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.titulo{
+    text-align: center;
+    margin: 1em 0;
+}
+
+.venceor{
+    text-align: center;
+}
+
+.vencedor{
+    text-align: center;
+}
+
+hr{
+    border-bottom: 2px solid black;
+}
+
+.aline{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jogador{
+    max-width: 150px;
+    opacity: 0.3;
+    cursor: pointer;
+}
